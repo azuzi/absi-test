@@ -1,0 +1,22 @@
+{
+  "name": "ebsi-api-test",
+  "version": "1.0.0",
+  "description": "Test project to learn ebsi-did api",
+  "main": "./src/app.ts",
+  "scripts": {
+    "start": "nodemon ./src/app.ts",
+    "test": "test",
+    "build": "tsc --project  ./"
+  },
+  "author": "Ahamed Azeem",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "expressjs": "^1.0.1",
+    "jsonrpc": "^0.1.1",
+    "nodemon": "^2.0.7",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  }
+}
